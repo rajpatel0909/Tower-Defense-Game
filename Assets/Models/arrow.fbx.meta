@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: 52928c6d1e257c542b30c04bce941c17
+timeCreated: 1459440169
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm1_L
+    100002: arm1_R
+    100004: arm2_L
+    100006: arm2_R
+    100008: Armature
+    100010: armik_L
+    100012: armik_L_end
+    100014: armik_R
+    100016: armik_R_end
+    100018: armpole_L
+    100020: armpole_L_end
+    100022: armpole_R
+    100024: armpole_R_end
+    100026: //RootNode
+    100028: chest
+    100030: Circle
+    100032: Cube
+    100034: Cube.001
+    100036: Cube.002
+    100038: face
+    100040: face_end
+    100042: foot_L
+    100044: foot_L_end
+    100046: foot_R
+    100048: foot_R_end
+    100050: hand1_L
+    100052: hand1_L.001
+    100054: hand1_L.001_end
+    100056: hand1_R
+    100058: hand1_R.001
+    100060: hand1_R.001_end
+    100062: hand2_L
+    100064: hand2_R
+    100066: hand3_L
+    100068: hand3_L_end
+    100070: hand3_R
+    100072: hand3_R_end
+    100074: leg1_L
+    100076: leg1_R
+    100078: leg2_L
+    100080: leg2_R
+    100082: legik_L
+    100084: legik_L_end
+    100086: legik_R
+    100088: legik_R_end
+    100090: legpole_L
+    100092: legpole_L_end
+    100094: legpole_R
+    100096: legpole_R_end
+    100098: neck
+    100100: Plane
+    100102: root
+    100104: shoulder_L
+    100106: shoulder_R
+    100108: stomach
+    100110: stomach_end
+    100112: Sun
+    100114: Sun.001
+    400000: arm1_L
+    400002: arm1_R
+    400004: arm2_L
+    400006: arm2_R
+    400008: Armature
+    400010: armik_L
+    400012: armik_L_end
+    400014: armik_R
+    400016: armik_R_end
+    400018: armpole_L
+    400020: armpole_L_end
+    400022: armpole_R
+    400024: armpole_R_end
+    400026: //RootNode
+    400028: chest
+    400030: Circle
+    400032: Cube
+    400034: Cube.001
+    400036: Cube.002
+    400038: face
+    400040: face_end
+    400042: foot_L
+    400044: foot_L_end
+    400046: foot_R
+    400048: foot_R_end
+    400050: hand1_L
+    400052: hand1_L.001
+    400054: hand1_L.001_end
+    400056: hand1_R
+    400058: hand1_R.001
+    400060: hand1_R.001_end
+    400062: hand2_L
+    400064: hand2_R
+    400066: hand3_L
+    400068: hand3_L_end
+    400070: hand3_R
+    400072: hand3_R_end
+    400074: leg1_L
+    400076: leg1_R
+    400078: leg2_L
+    400080: leg2_R
+    400082: legik_L
+    400084: legik_L_end
+    400086: legik_R
+    400088: legik_R_end
+    400090: legpole_L
+    400092: legpole_L_end
+    400094: legpole_R
+    400096: legpole_R_end
+    400098: neck
+    400100: Plane
+    400102: root
+    400104: shoulder_L
+    400106: shoulder_R
+    400108: stomach
+    400110: stomach_end
+    400112: Sun
+    400114: Sun.001
+    2300000: Circle
+    2300002: Plane
+    3300000: Circle
+    3300002: Plane
+    4300000: Circle
+    4300002: Cube.002
+    4300004: Cube.001
+    4300006: Cube
+    4300008: Plane
+    6400000: Circle
+    6400002: Plane
+    7400000: Armature|ArmatureAction
+    7400002: ArrowSoldierWalk
+    7400004: ArrowSoldierAttack
+    9500000: //RootNode
+    13700000: Cube
+    13700002: Cube.001
+    13700004: Cube.002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ArrowSoldierWalk
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/armik_L
+        weight: 1
+      - path: Armature/root/armik_L/armik_L_end
+        weight: 1
+      - path: Armature/root/armik_R
+        weight: 1
+      - path: Armature/root/armik_R/armik_R_end
+        weight: 1
+      - path: Armature/root/armpole_L
+        weight: 1
+      - path: Armature/root/armpole_L/armpole_L_end
+        weight: 1
+      - path: Armature/root/armpole_R
+        weight: 1
+      - path: Armature/root/armpole_R/armpole_R_end
+        weight: 1
+      - path: Armature/root/chest
+        weight: 1
+      - path: Armature/root/chest/stomach
+        weight: 1
+      - path: Armature/root/chest/stomach/stomach_end
+        weight: 1
+      - path: Armature/root/leg1_L
+        weight: 1
+      - path: Armature/root/leg1_L/leg2_L
+        weight: 1
+      - path: Armature/root/leg1_L/leg2_L/foot_L
+        weight: 1
+      - path: Armature/root/leg1_L/leg2_L/foot_L/foot_L_end
+        weight: 1
+      - path: Armature/root/leg1_R
+        weight: 1
+      - path: Armature/root/leg1_R/leg2_R
+        weight: 1
+      - path: Armature/root/leg1_R/leg2_R/foot_R
+        weight: 1
+      - path: Armature/root/leg1_R/leg2_R/foot_R/foot_R_end
+        weight: 1
+      - path: Armature/root/legik_L
+        weight: 1
+      - path: Armature/root/legik_L/legik_L_end
+        weight: 1
+      - path: Armature/root/legik_R
+        weight: 1
+      - path: Armature/root/legik_R/legik_R_end
+        weight: 1
+      - path: Armature/root/legpole_L
+        weight: 1
+      - path: Armature/root/legpole_L/legpole_L_end
+        weight: 1
+      - path: Armature/root/legpole_R
+        weight: 1
+      - path: Armature/root/legpole_R/legpole_R_end
+        weight: 1
+      - path: Armature/root/neck
+        weight: 1
+      - path: Armature/root/neck/face
+        weight: 1
+      - path: Armature/root/neck/face/face_end
+        weight: 1
+      - path: Armature/root/shoulder_L
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L/arm2_L
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L/arm2_L/hand1_L
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L/arm2_L/hand1_L/hand1_L.001
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L/arm2_L/hand1_L/hand1_L.001/hand1_L.001_end
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L/arm2_L/hand1_L/hand2_L
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L/arm2_L/hand1_L/hand2_L/hand3_L
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L/arm2_L/hand1_L/hand2_L/hand3_L/hand3_L_end
+        weight: 1
+      - path: Armature/root/shoulder_R
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R/hand1_R
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R/hand1_R/Circle
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R/hand1_R/hand1_R.001
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R/hand1_R/hand1_R.001/hand1_R.001_end
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R/hand1_R/hand2_R
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R/hand1_R/hand2_R/hand3_R
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R/hand1_R/hand2_R/hand3_R/hand3_R_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube/Plane
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArrowSoldierAttack
+      takeName: Armature|ArmatureAction
+      firstFrame: 25
+      lastFrame: 62
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/armik_L
+        weight: 1
+      - path: Armature/root/armik_L/armik_L_end
+        weight: 1
+      - path: Armature/root/armik_R
+        weight: 1
+      - path: Armature/root/armik_R/armik_R_end
+        weight: 1
+      - path: Armature/root/armpole_L
+        weight: 1
+      - path: Armature/root/armpole_L/armpole_L_end
+        weight: 1
+      - path: Armature/root/armpole_R
+        weight: 1
+      - path: Armature/root/armpole_R/armpole_R_end
+        weight: 1
+      - path: Armature/root/chest
+        weight: 1
+      - path: Armature/root/chest/stomach
+        weight: 1
+      - path: Armature/root/chest/stomach/stomach_end
+        weight: 1
+      - path: Armature/root/leg1_L
+        weight: 1
+      - path: Armature/root/leg1_L/leg2_L
+        weight: 1
+      - path: Armature/root/leg1_L/leg2_L/foot_L
+        weight: 1
+      - path: Armature/root/leg1_L/leg2_L/foot_L/foot_L_end
+        weight: 1
+      - path: Armature/root/leg1_R
+        weight: 1
+      - path: Armature/root/leg1_R/leg2_R
+        weight: 1
+      - path: Armature/root/leg1_R/leg2_R/foot_R
+        weight: 1
+      - path: Armature/root/leg1_R/leg2_R/foot_R/foot_R_end
+        weight: 1
+      - path: Armature/root/legik_L
+        weight: 1
+      - path: Armature/root/legik_L/legik_L_end
+        weight: 1
+      - path: Armature/root/legik_R
+        weight: 1
+      - path: Armature/root/legik_R/legik_R_end
+        weight: 1
+      - path: Armature/root/legpole_L
+        weight: 1
+      - path: Armature/root/legpole_L/legpole_L_end
+        weight: 1
+      - path: Armature/root/legpole_R
+        weight: 1
+      - path: Armature/root/legpole_R/legpole_R_end
+        weight: 1
+      - path: Armature/root/neck
+        weight: 1
+      - path: Armature/root/neck/face
+        weight: 1
+      - path: Armature/root/neck/face/face_end
+        weight: 1
+      - path: Armature/root/shoulder_L
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L/arm2_L
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L/arm2_L/hand1_L
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L/arm2_L/hand1_L/hand1_L.001
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L/arm2_L/hand1_L/hand1_L.001/hand1_L.001_end
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L/arm2_L/hand1_L/hand2_L
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L/arm2_L/hand1_L/hand2_L/hand3_L
+        weight: 1
+      - path: Armature/root/shoulder_L/arm1_L/arm2_L/hand1_L/hand2_L/hand3_L/hand3_L_end
+        weight: 1
+      - path: Armature/root/shoulder_R
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R/hand1_R
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R/hand1_R/Circle
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R/hand1_R/hand1_R.001
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R/hand1_R/hand1_R.001/hand1_R.001_end
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R/hand1_R/hand2_R
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R/hand1_R/hand2_R/hand3_R
+        weight: 1
+      - path: Armature/root/shoulder_R/arm1_R/arm2_R/hand1_R/hand2_R/hand3_R/hand3_R_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube/Plane
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

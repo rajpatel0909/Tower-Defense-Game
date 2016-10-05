@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: f97998aa120b2704ea82aa056d69677e
+timeCreated: 1455451691
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: arm1_L
+    100004: arm1_R
+    100006: arm2_L
+    100008: arm2_R
+    100010: Armature
+    100012: armik_R
+    100014: armour
+    100016: armpole_R
+    100018: body
+    100020: chest
+    100022: Circle
+    100024: Circle_003
+    100026: Circle_006
+    100028: face
+    100030: foot_L
+    100032: foot_R
+    100034: hand1_L
+    100036: hand1_R
+    100038: hand2_L
+    100040: hand2_R
+    100042: hand3_L
+    100044: hand3_R
+    100046: leg1_L
+    100048: leg1_R
+    100050: leg2_L
+    100052: leg2_R
+    100054: neck
+    100056: root
+    100058: shoulder_L
+    100060: shoulder_R
+    100062: shoulderpads
+    100064: stomach
+    100066: sword
+    400000: //RootNode
+    400002: arm1_L
+    400004: arm1_R
+    400006: arm2_L
+    400008: arm2_R
+    400010: Armature
+    400012: armik_R
+    400014: armour
+    400016: armpole_R
+    400018: body
+    400020: chest
+    400022: Circle
+    400024: Circle_003
+    400026: Circle_006
+    400028: face
+    400030: foot_L
+    400032: foot_R
+    400034: hand1_L
+    400036: hand1_R
+    400038: hand2_L
+    400040: hand2_R
+    400042: hand3_L
+    400044: hand3_R
+    400046: leg1_L
+    400048: leg1_R
+    400050: leg2_L
+    400052: leg2_R
+    400054: neck
+    400056: root
+    400058: shoulder_L
+    400060: shoulder_R
+    400062: shoulderpads
+    400064: stomach
+    400066: sword
+    2300000: Circle
+    2300002: Circle_003
+    3300000: Circle
+    3300002: Circle_003
+    4300000: Circle_003
+    4300002: Circle
+    4300004: Circle_006
+    4300006: sword
+    4300008: armour
+    4300010: shoulderpads
+    4300012: body
+    6400000: Circle
+    6400002: Circle_003
+    7400000: Default Take
+    7400002: ArmatureAction
+    9500000: //RootNode
+    13700000: armour
+    13700002: body
+    13700004: Circle_006
+    13700006: shoulderpads
+    13700008: sword
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

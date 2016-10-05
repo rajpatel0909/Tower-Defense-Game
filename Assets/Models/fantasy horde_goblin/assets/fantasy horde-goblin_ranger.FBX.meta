@@ -1,0 +1,1761 @@
+fileFormatVersion: 2
+guid: cb01db2707aa97a4e94efee03de71f52
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bip_gob_ran
+    100002: bip_gob_ranHead
+    100004: bip_gob_ranHeadBone001
+    100006: bip_gob_ranHeadBone002
+    100008: bip_gob_ranLCalf
+    100010: bip_gob_ranLCollarbone
+    100012: bip_gob_ranLDigit11
+    100014: bip_gob_ranLDigit11 1
+    100016: bip_gob_ranLDigit12
+    100018: bip_gob_ranLDigit21
+    100020: bip_gob_ranLDigit22
+    100022: bip_gob_ranLDigit31
+    100024: bip_gob_ranLDigit32
+    100026: bip_gob_ranLFoot
+    100028: bip_gob_ranLForearm
+    100030: bip_gob_ranLIKTarget
+    100032: bip_gob_ranLPalm
+    100034: bip_gob_ranLPlatform
+    100036: bip_gob_ranLThigh
+    100038: bip_gob_ranLUpperarm
+    100040: bip_gob_ranNeck1
+    100042: bip_gob_ranNeck2
+    100044: bip_gob_ranPelvis
+    100046: bip_gob_ranRCalf
+    100048: bip_gob_ranRCollarbone
+    100050: bip_gob_ranRDigit11
+    100052: bip_gob_ranRDigit11 1
+    100054: bip_gob_ranRDigit12
+    100056: bip_gob_ranRDigit21
+    100058: bip_gob_ranRDigit22
+    100060: bip_gob_ranRDigit31
+    100062: bip_gob_ranRDigit32
+    100064: bip_gob_ranRFoot
+    100066: bip_gob_ranRForearm
+    100068: bip_gob_ranRibcage
+    100070: bip_gob_ranRIKTarget
+    100072: bip_gob_ranRPalm
+    100074: bip_gob_ranRPlatform
+    100076: bip_gob_ranRThigh
+    100078: bip_gob_ranRUpperarm
+    100080: bip_gob_ranSpine1
+    100082: bip_gob_ranSpine2
+    100084: bip_gob_ranSpine3
+    100086: bip_gob_ranSpine4
+    100088: bon_gob_ran_cloth00
+    100090: bon_gob_ran_cloth01
+    100092: bon_gob_ran_cloth_tip
+    100094: bon_gob_ran_ear L
+    100096: bon_gob_ran_ear R
+    100098: bon_gob_ran_ear R_tip
+    100100: bon_gob_ran_ear R_tip 1
+    100102: bon_gob_ran_face
+    100104: bon_gob_ran_hair
+    100106: bon_gob_ran_hair_tip
+    100108: bon_gob_ran_jaw
+    100110: bon_gob_ran_jaw_tip
+    100112: bon_gob_ran_jaw_tip 1
+    100114: bone_goblin arch_botton00
+    100116: bone_goblin arch_botton01
+    100118: bone_goblin arch_botton_tip
+    100120: bone_goblin arch_main
+    100122: bone_goblin arch_top00
+    100124: bone_goblin arch_top01
+    100126: bone_goblin arch_top_tip
+    100128: ctrl_goblin arch_arrow
+    100130: ctrl_goblin arch_dummie botton
+    100132: ctrl_goblin arch_dummie top
+    100134: ctrl_goblin arch_main
+    100136: //RootNode
+    100138: goblin ranger
+    100140: goblin ranger arm armor L
+    100142: goblin ranger arm armor R
+    100144: goblin ranger armor
+    100146: goblin ranger boot A
+    100148: goblin ranger boot B
+    100150: goblin ranger cap
+    100152: goblin ranger cloth
+    100154: goblin ranger hair
+    100156: goblin ranger helmet
+    100158: goblin ranger mask
+    100160: goblin ranger mohican
+    100162: goblin ranger ponny tail
+    100164: goblin ranger shoulder armor
+    100166: goblin ranger wrist armor L
+    100168: goblin ranger wrist armor R
+    100170: goblin_arch
+    100172: goblin_quiver
+    100174: goblin_ran_axe
+    100176: goblin_ran_club
+    100178: goblin_ran_shield
+    100180: goblin_ran_spear
+    100182: goblin_ran_sword
+    100184: goblin_war_spear dummy
+    100186: IK_goblin arch_botton
+    100188: IK_goblin arch_top
+    400000: bip_gob_ran
+    400002: bip_gob_ranHead
+    400004: bip_gob_ranHeadBone001
+    400006: bip_gob_ranHeadBone002
+    400008: bip_gob_ranLCalf
+    400010: bip_gob_ranLCollarbone
+    400012: bip_gob_ranLDigit11
+    400014: bip_gob_ranLDigit11 1
+    400016: bip_gob_ranLDigit12
+    400018: bip_gob_ranLDigit21
+    400020: bip_gob_ranLDigit22
+    400022: bip_gob_ranLDigit31
+    400024: bip_gob_ranLDigit32
+    400026: bip_gob_ranLFoot
+    400028: bip_gob_ranLForearm
+    400030: bip_gob_ranLIKTarget
+    400032: bip_gob_ranLPalm
+    400034: bip_gob_ranLPlatform
+    400036: bip_gob_ranLThigh
+    400038: bip_gob_ranLUpperarm
+    400040: bip_gob_ranNeck1
+    400042: bip_gob_ranNeck2
+    400044: bip_gob_ranPelvis
+    400046: bip_gob_ranRCalf
+    400048: bip_gob_ranRCollarbone
+    400050: bip_gob_ranRDigit11
+    400052: bip_gob_ranRDigit11 1
+    400054: bip_gob_ranRDigit12
+    400056: bip_gob_ranRDigit21
+    400058: bip_gob_ranRDigit22
+    400060: bip_gob_ranRDigit31
+    400062: bip_gob_ranRDigit32
+    400064: bip_gob_ranRFoot
+    400066: bip_gob_ranRForearm
+    400068: bip_gob_ranRibcage
+    400070: bip_gob_ranRIKTarget
+    400072: bip_gob_ranRPalm
+    400074: bip_gob_ranRPlatform
+    400076: bip_gob_ranRThigh
+    400078: bip_gob_ranRUpperarm
+    400080: bip_gob_ranSpine1
+    400082: bip_gob_ranSpine2
+    400084: bip_gob_ranSpine3
+    400086: bip_gob_ranSpine4
+    400088: bon_gob_ran_cloth00
+    400090: bon_gob_ran_cloth01
+    400092: bon_gob_ran_cloth_tip
+    400094: bon_gob_ran_ear L
+    400096: bon_gob_ran_ear R
+    400098: bon_gob_ran_ear R_tip
+    400100: bon_gob_ran_ear R_tip 1
+    400102: bon_gob_ran_face
+    400104: bon_gob_ran_hair
+    400106: bon_gob_ran_hair_tip
+    400108: bon_gob_ran_jaw
+    400110: bon_gob_ran_jaw_tip
+    400112: bon_gob_ran_jaw_tip 1
+    400114: bone_goblin arch_botton00
+    400116: bone_goblin arch_botton01
+    400118: bone_goblin arch_botton_tip
+    400120: bone_goblin arch_main
+    400122: bone_goblin arch_top00
+    400124: bone_goblin arch_top01
+    400126: bone_goblin arch_top_tip
+    400128: ctrl_goblin arch_arrow
+    400130: ctrl_goblin arch_dummie botton
+    400132: ctrl_goblin arch_dummie top
+    400134: ctrl_goblin arch_main
+    400136: //RootNode
+    400138: goblin ranger
+    400140: goblin ranger arm armor L
+    400142: goblin ranger arm armor R
+    400144: goblin ranger armor
+    400146: goblin ranger boot A
+    400148: goblin ranger boot B
+    400150: goblin ranger cap
+    400152: goblin ranger cloth
+    400154: goblin ranger hair
+    400156: goblin ranger helmet
+    400158: goblin ranger mask
+    400160: goblin ranger mohican
+    400162: goblin ranger ponny tail
+    400164: goblin ranger shoulder armor
+    400166: goblin ranger wrist armor L
+    400168: goblin ranger wrist armor R
+    400170: goblin_arch
+    400172: goblin_quiver
+    400174: goblin_ran_axe
+    400176: goblin_ran_club
+    400178: goblin_ran_shield
+    400180: goblin_ran_spear
+    400182: goblin_ran_sword
+    400184: goblin_war_spear dummy
+    400186: IK_goblin arch_botton
+    400188: IK_goblin arch_top
+    2300000: goblin ranger arm armor L
+    2300002: goblin ranger arm armor R
+    2300004: goblin ranger armor
+    2300006: goblin ranger hair
+    2300008: goblin ranger helmet
+    2300010: goblin ranger mask
+    2300012: goblin ranger mohican
+    2300014: goblin ranger shoulder armor
+    2300016: goblin ranger wrist armor L
+    2300018: goblin ranger wrist armor R
+    2300020: goblin_quiver
+    2300022: goblin_ran_axe
+    2300024: goblin_ran_club
+    2300026: goblin_ran_shield
+    2300028: goblin_ran_spear
+    2300030: goblin_ran_sword
+    3300000: goblin ranger arm armor L
+    3300002: goblin ranger arm armor R
+    3300004: goblin ranger armor
+    3300006: goblin ranger hair
+    3300008: goblin ranger helmet
+    3300010: goblin ranger mask
+    3300012: goblin ranger mohican
+    3300014: goblin ranger shoulder armor
+    3300016: goblin ranger wrist armor L
+    3300018: goblin ranger wrist armor R
+    3300020: goblin_quiver
+    3300022: goblin_ran_axe
+    3300024: goblin_ran_club
+    3300026: goblin_ran_shield
+    3300028: goblin_ran_spear
+    3300030: goblin_ran_sword
+    4300000: goblin warrior
+    4300002: goblin warrior cloth
+    4300004: goblin warrior boot A
+    4300006: goblin warrior boot B
+    4300008: goblin_arch
+    4300010: goblin_shield
+    4300012: goblin warrior arm armor L
+    4300014: goblin warrior wrist armor L
+    4300016: goblin warrior shoulder armor L
+    4300018: goblin_war_axe
+    4300020: goblin_war_club
+    4300022: goblin_war_sword
+    4300024: goblin_war_spear
+    4300026: goblin warrior arm armor R
+    4300028: goblin warrior wrist armor R
+    4300030: goblin warrior shoulder armor R
+    4300032: goblin warrior cap
+    4300034: goblin warrior mask
+    4300036: goblin warrior helmet
+    4300038: goblin warrior mohican
+    4300040: goblin warrior hair
+    4300042: goblin_quiver
+    4300044: goblin warrior armor
+    4300046: goblin warrior ponny tail
+    4300048: goblin ranger
+    4300050: goblin_ran_shield
+    4300052: goblin ranger wrist armor L
+    4300054: goblin ranger arm armor L
+    4300056: goblin_ran_spear
+    4300058: goblin_ran_axe
+    4300060: goblin_ran_sword
+    4300062: goblin_ran_club
+    4300064: goblin ranger wrist armor R
+    4300066: goblin ranger arm armor R
+    4300068: goblin ranger shoulder armor
+    4300070: goblin ranger helmet
+    4300072: goblin ranger mask
+    4300074: goblin ranger hair
+    4300076: goblin ranger mohican
+    4300078: goblin ranger armor
+    4300080: goblin ranger ponny tail
+    4300082: goblin ranger cloth
+    4300084: goblin ranger boot A
+    4300086: goblin ranger boot B
+    4300088: goblin ranger cap
+    6400000: goblin ranger arm armor L
+    6400002: goblin ranger arm armor R
+    6400004: goblin ranger armor
+    6400006: goblin ranger hair
+    6400008: goblin ranger helmet
+    6400010: goblin ranger mask
+    6400012: goblin ranger mohican
+    6400014: goblin ranger shoulder armor
+    6400016: goblin ranger wrist armor L
+    6400018: goblin ranger wrist armor R
+    6400020: goblin_quiver
+    6400022: goblin_ran_axe
+    6400024: goblin_ran_club
+    6400026: goblin_ran_shield
+    6400028: goblin_ran_spear
+    6400030: goblin_ran_sword
+    7400000: idle
+    7400002: idle break 1
+    7400004: idle break 2
+    7400006: salute
+    7400008: jump simple
+    7400010: walk
+    7400012: 'run '
+    7400014: run fast
+    7400016: 'crouch '
+    7400018: crouch walk
+    7400020: hit front
+    7400022: hit back
+    7400024: jump complete
+    7400026: falling
+    7400028: die soft
+    7400030: die hard
+    7400032: idle fight
+    7400034: idle break fight
+    7400036: blocking
+    7400038: 'axe attack '
+    7400040: sword attack
+    7400042: sword double attack
+    7400044: arch attack
+    7400046: spear prepare
+    7400048: spear attack
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: goblin ranger
+    13700002: goblin ranger boot A
+    13700004: goblin ranger boot B
+    13700006: goblin ranger cap
+    13700008: goblin ranger cloth
+    13700010: goblin ranger ponny tail
+    13700012: goblin_arch
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: 
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bip_gob_ran
+        weight: 1
+      - path: bip_gob_ranLIKTarget
+        weight: 1
+      - path: bip_gob_ranLPlatform
+        weight: 1
+      - path: bip_gob_ranPelvis
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranLThigh
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranLThigh/bip_gob_ranLCalf
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranLThigh/bip_gob_ranLCalf/bip_gob_ranLFoot
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranLThigh/bip_gob_ranLCalf/bip_gob_ranLFoot/bip_gob_ranLDigit11
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranRThigh
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranRThigh/bip_gob_ranRCalf
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranRThigh/bip_gob_ranRCalf/bip_gob_ranRFoot
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranRThigh/bip_gob_ranRCalf/bip_gob_ranRFoot/bip_gob_ranRDigit11
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit11
+          1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit11
+          1/bip_gob_ranLDigit12
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit21
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit21/bip_gob_ranLDigit22
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit31
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit31/bip_gob_ranLDigit32
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/bone_goblin arch_main
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_botton00
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_botton00/bone_goblin arch_botton01
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_botton00/bone_goblin arch_botton01/bone_goblin
+          arch_botton_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_top00
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_top00/bone_goblin arch_top01
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_top00/bone_goblin arch_top01/bone_goblin
+          arch_top_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_dummie botton
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_dummie botton/IK_goblin arch_botton
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_dummie top
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_dummie top/IK_goblin arch_top
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/goblin
+          ranger arm armor L
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/goblin
+          ranger wrist armor L
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/goblin_ran_shield
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bip_gob_ranHeadBone001
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bip_gob_ranHeadBone002
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_ear
+          L
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_ear
+          L/bon_gob_ran_ear R_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_ear
+          R
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_ear
+          R/bon_gob_ran_ear R_tip 1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_face
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_face/bon_gob_ran_jaw_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_hair
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_hair/bon_gob_ran_hair_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_jaw
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_jaw/bon_gob_ran_jaw_tip
+          1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/goblin
+          ranger hair
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/goblin
+          ranger helmet
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/goblin
+          ranger mask
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/goblin
+          ranger mohican
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit11
+          1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit11
+          1/bip_gob_ranRDigit12
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit21
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit21/bip_gob_ranRDigit22
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit31
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit31/bip_gob_ranRDigit32
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_ran_axe
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_ran_club
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_ran_sword
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_war_spear
+          dummy
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_war_spear
+          dummy/goblin_ran_spear
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/goblin
+          ranger arm armor R
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/goblin
+          ranger wrist armor R
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/goblin
+          ranger shoulder armor
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/goblin_quiver
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/goblin ranger armor
+        weight: 1
+      - path: bip_gob_ranPelvis/bon_gob_ran_cloth00
+        weight: 1
+      - path: bip_gob_ranPelvis/bon_gob_ran_cloth00/bon_gob_ran_cloth01
+        weight: 1
+      - path: bip_gob_ranPelvis/bon_gob_ran_cloth00/bon_gob_ran_cloth01/bon_gob_ran_cloth_tip
+        weight: 1
+      - path: bip_gob_ranRIKTarget
+        weight: 1
+      - path: bip_gob_ranRPlatform
+        weight: 1
+      - path: goblin ranger
+        weight: 1
+      - path: goblin ranger boot A
+        weight: 1
+      - path: goblin ranger boot B
+        weight: 1
+      - path: goblin ranger cap
+        weight: 1
+      - path: goblin ranger cloth
+        weight: 1
+      - path: goblin ranger ponny tail
+        weight: 1
+      - path: goblin_arch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle break 1
+      takeName: 
+      firstFrame: 120
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle break 2
+      takeName: 
+      firstFrame: 190
+      lastFrame: 290
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: salute
+      takeName: 
+      firstFrame: 290
+      lastFrame: 369
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump simple
+      takeName: 
+      firstFrame: 370
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: 
+      firstFrame: 385
+      lastFrame: 415
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bip_gob_ran
+        weight: 1
+      - path: bip_gob_ranLIKTarget
+        weight: 1
+      - path: bip_gob_ranLPlatform
+        weight: 1
+      - path: bip_gob_ranPelvis
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranLThigh
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranLThigh/bip_gob_ranLCalf
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranLThigh/bip_gob_ranLCalf/bip_gob_ranLFoot
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranLThigh/bip_gob_ranLCalf/bip_gob_ranLFoot/bip_gob_ranLDigit11
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranRThigh
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranRThigh/bip_gob_ranRCalf
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranRThigh/bip_gob_ranRCalf/bip_gob_ranRFoot
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranRThigh/bip_gob_ranRCalf/bip_gob_ranRFoot/bip_gob_ranRDigit11
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit11
+          1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit11
+          1/bip_gob_ranLDigit12
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit21
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit21/bip_gob_ranLDigit22
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit31
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit31/bip_gob_ranLDigit32
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/bone_goblin arch_main
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_botton00
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_botton00/bone_goblin arch_botton01
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_botton00/bone_goblin arch_botton01/bone_goblin
+          arch_botton_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_top00
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_top00/bone_goblin arch_top01
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_top00/bone_goblin arch_top01/bone_goblin
+          arch_top_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_dummie botton
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_dummie botton/IK_goblin arch_botton
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_dummie top
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_dummie top/IK_goblin arch_top
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/goblin
+          ranger arm armor L
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/goblin
+          ranger wrist armor L
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/goblin_ran_shield
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bip_gob_ranHeadBone001
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bip_gob_ranHeadBone002
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_ear
+          L
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_ear
+          L/bon_gob_ran_ear R_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_ear
+          R
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_ear
+          R/bon_gob_ran_ear R_tip 1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_face
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_face/bon_gob_ran_jaw_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_hair
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_hair/bon_gob_ran_hair_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_jaw
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_jaw/bon_gob_ran_jaw_tip
+          1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/goblin
+          ranger hair
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/goblin
+          ranger helmet
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/goblin
+          ranger mask
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/goblin
+          ranger mohican
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit11
+          1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit11
+          1/bip_gob_ranRDigit12
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit21
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit21/bip_gob_ranRDigit22
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit31
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit31/bip_gob_ranRDigit32
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_ran_axe
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_ran_club
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_ran_sword
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_war_spear
+          dummy
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_war_spear
+          dummy/goblin_ran_spear
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/goblin
+          ranger arm armor R
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/goblin
+          ranger wrist armor R
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/goblin
+          ranger shoulder armor
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/goblin_quiver
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/goblin ranger armor
+        weight: 1
+      - path: bip_gob_ranPelvis/bon_gob_ran_cloth00
+        weight: 1
+      - path: bip_gob_ranPelvis/bon_gob_ran_cloth00/bon_gob_ran_cloth01
+        weight: 1
+      - path: bip_gob_ranPelvis/bon_gob_ran_cloth00/bon_gob_ran_cloth01/bon_gob_ran_cloth_tip
+        weight: 1
+      - path: bip_gob_ranRIKTarget
+        weight: 1
+      - path: bip_gob_ranRPlatform
+        weight: 1
+      - path: goblin ranger
+        weight: 1
+      - path: goblin ranger boot A
+        weight: 1
+      - path: goblin ranger boot B
+        weight: 1
+      - path: goblin ranger cap
+        weight: 1
+      - path: goblin ranger cloth
+        weight: 1
+      - path: goblin ranger ponny tail
+        weight: 1
+      - path: goblin_arch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 'run '
+      takeName: 
+      firstFrame: 420
+      lastFrame: 450
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run fast
+      takeName: 
+      firstFrame: 455
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 'crouch '
+      takeName: 
+      firstFrame: 485
+      lastFrame: 499
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: crouch walk
+      takeName: 
+      firstFrame: 500
+      lastFrame: 550
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit front
+      takeName: 
+      firstFrame: 554
+      lastFrame: 564
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit back
+      takeName: 
+      firstFrame: 565
+      lastFrame: 575
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump complete
+      takeName: 
+      firstFrame: 580
+      lastFrame: 623
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: falling
+      takeName: 
+      firstFrame: 625
+      lastFrame: 665
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: die soft
+      takeName: 
+      firstFrame: 668
+      lastFrame: 740
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: die hard
+      takeName: 
+      firstFrame: 745
+      lastFrame: 770
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle fight
+      takeName: 
+      firstFrame: 775
+      lastFrame: 820
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle break fight
+      takeName: 
+      firstFrame: 820
+      lastFrame: 870
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: blocking
+      takeName: 
+      firstFrame: 870
+      lastFrame: 890
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 'axe attack '
+      takeName: 
+      firstFrame: 890
+      lastFrame: 910
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sword attack
+      takeName: 
+      firstFrame: 910
+      lastFrame: 930
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bip_gob_ran
+        weight: 1
+      - path: bip_gob_ranLIKTarget
+        weight: 1
+      - path: bip_gob_ranLPlatform
+        weight: 1
+      - path: bip_gob_ranPelvis
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranLThigh
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranLThigh/bip_gob_ranLCalf
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranLThigh/bip_gob_ranLCalf/bip_gob_ranLFoot
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranLThigh/bip_gob_ranLCalf/bip_gob_ranLFoot/bip_gob_ranLDigit11
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranRThigh
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranRThigh/bip_gob_ranRCalf
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranRThigh/bip_gob_ranRCalf/bip_gob_ranRFoot
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranRThigh/bip_gob_ranRCalf/bip_gob_ranRFoot/bip_gob_ranRDigit11
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit11
+          1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit11
+          1/bip_gob_ranLDigit12
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit21
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit21/bip_gob_ranLDigit22
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit31
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/bip_gob_ranLDigit31/bip_gob_ranLDigit32
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/bone_goblin arch_main
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_botton00
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_botton00/bone_goblin arch_botton01
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_botton00/bone_goblin arch_botton01/bone_goblin
+          arch_botton_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_top00
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_top00/bone_goblin arch_top01
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_arrow/bone_goblin arch_top00/bone_goblin arch_top01/bone_goblin
+          arch_top_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_dummie botton
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_dummie botton/IK_goblin arch_botton
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_dummie top
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/bip_gob_ranLPalm/ctrl_goblin
+          arch_main/ctrl_goblin arch_dummie top/IK_goblin arch_top
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/goblin
+          ranger arm armor L
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/goblin
+          ranger wrist armor L
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranLCollarbone/bip_gob_ranLUpperarm/bip_gob_ranLForearm/goblin_ran_shield
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bip_gob_ranHeadBone001
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bip_gob_ranHeadBone002
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_ear
+          L
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_ear
+          L/bon_gob_ran_ear R_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_ear
+          R
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_ear
+          R/bon_gob_ran_ear R_tip 1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_face
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_face/bon_gob_ran_jaw_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_hair
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_hair/bon_gob_ran_hair_tip
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_jaw
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/bon_gob_ran_jaw/bon_gob_ran_jaw_tip
+          1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/goblin
+          ranger hair
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/goblin
+          ranger helmet
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/goblin
+          ranger mask
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranNeck1/bip_gob_ranNeck2/bip_gob_ranHead/goblin
+          ranger mohican
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit11
+          1
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit11
+          1/bip_gob_ranRDigit12
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit21
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit21/bip_gob_ranRDigit22
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit31
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/bip_gob_ranRDigit31/bip_gob_ranRDigit32
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_ran_axe
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_ran_club
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_ran_sword
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_war_spear
+          dummy
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/bip_gob_ranRPalm/goblin_war_spear
+          dummy/goblin_ran_spear
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/goblin
+          ranger arm armor R
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/bip_gob_ranRForearm/goblin
+          ranger wrist armor R
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/bip_gob_ranRCollarbone/bip_gob_ranRUpperarm/goblin
+          ranger shoulder armor
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/bip_gob_ranSpine2/bip_gob_ranSpine3/bip_gob_ranSpine4/bip_gob_ranRibcage/goblin_quiver
+        weight: 1
+      - path: bip_gob_ranPelvis/bip_gob_ranSpine1/goblin ranger armor
+        weight: 1
+      - path: bip_gob_ranPelvis/bon_gob_ran_cloth00
+        weight: 1
+      - path: bip_gob_ranPelvis/bon_gob_ran_cloth00/bon_gob_ran_cloth01
+        weight: 1
+      - path: bip_gob_ranPelvis/bon_gob_ran_cloth00/bon_gob_ran_cloth01/bon_gob_ran_cloth_tip
+        weight: 1
+      - path: bip_gob_ranRIKTarget
+        weight: 1
+      - path: bip_gob_ranRPlatform
+        weight: 1
+      - path: goblin ranger
+        weight: 1
+      - path: goblin ranger boot A
+        weight: 1
+      - path: goblin ranger boot B
+        weight: 1
+      - path: goblin ranger cap
+        weight: 1
+      - path: goblin ranger cloth
+        weight: 1
+      - path: goblin ranger ponny tail
+        weight: 1
+      - path: goblin_arch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sword double attack
+      takeName: 
+      firstFrame: 930
+      lastFrame: 960
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arch attack
+      takeName: 
+      firstFrame: 960
+      lastFrame: 1015
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: spear prepare
+      takeName: 
+      firstFrame: 1015
+      lastFrame: 1025
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: spear attack
+      takeName: 
+      firstFrame: 1025
+      lastFrame: 1045
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
